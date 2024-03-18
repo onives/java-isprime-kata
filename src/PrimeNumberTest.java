@@ -11,4 +11,13 @@ public class PrimeNumberTest {
     public void testFour(){
         Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(4));
     }
+
+    @Test
+    public void testSix(){
+        Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(6));
+    }
+    @Test
+    public void testEight(){
+        Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(8));
+    }
 }
