@@ -4,11 +4,10 @@ public class PrimeNumber {
         if (num <= 1){
             return false;
         }
-        if (num == 2){
-            return true;
-        }
-        if (isDivisibleBy(num, 2) || isDivisibleBy(num, 3) || isDivisibleBy(num, 5)){
-            return false;
+        for (int i = 2; i < num; i++){
+            if(isDivisibleBy(num, i)){
+                return false;
+            }
         }
         return true;
     }
