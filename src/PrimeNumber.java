@@ -1,6 +1,9 @@
 public class PrimeNumber {
 
     public static boolean isPrimeNumber(int num){
+        if (num == 1){
+            return false;
+        }
         if (num == 2){
             return true;
         }
