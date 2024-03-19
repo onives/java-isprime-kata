@@ -32,4 +32,8 @@ public class PrimeNumberTest {
     public void test21(){
         Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(21));
     }
+    @Test
+    public void test25(){
+        Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(25));
+    }
 }
