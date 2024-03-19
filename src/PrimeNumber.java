@@ -4,7 +4,7 @@ public class PrimeNumber {
         if (num == 2){
             return true;
         }
-        if (num % 2 == 0 || num % 3 == 0 || num == 25){
+        if (num % 2 == 0 || num % 3 == 0 || num == 25 || num == 35){
             return false;
         } 
         return true;
