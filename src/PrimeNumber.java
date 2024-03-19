@@ -4,11 +4,9 @@ public class PrimeNumber {
         if (num == 2){
             return true;
         }
-        if (num % 2 == 0){
+        if (num % 2 == 0 || num == 9 || num == 15){
             return false;
-        } else if (num == 9){
-            return false;
-        }
+        } 
         return true;
     }
 
