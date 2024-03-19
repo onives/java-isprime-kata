@@ -4,7 +4,7 @@ public class PrimeNumber {
         if (num == 2){
             return true;
         }
-        if (num % 2 == 0 || num == 9 || num == 15 || num == 21){
+        if (num % 2 == 0 || num % 3 == 0){
             return false;
         } 
         return true;
