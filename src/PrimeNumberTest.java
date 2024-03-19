@@ -20,4 +20,8 @@ public class PrimeNumberTest {
     public void testEight(){
         Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(8));
     }
+    @Test
+    public void test9(){
+        Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(9));
+    }
 }

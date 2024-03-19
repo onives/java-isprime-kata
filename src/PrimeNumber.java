@@ -6,6 +6,8 @@ public class PrimeNumber {
         }
         if (num % 2 == 0){
             return false;
+        } else if (num == 9){
+            return false;
         }
         return true;
     }
