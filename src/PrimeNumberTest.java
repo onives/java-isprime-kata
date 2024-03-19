@@ -28,4 +28,8 @@ public class PrimeNumberTest {
     public void test15(){
         Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(15));
     }
+    @Test
+    public void test21(){
+        Assertions.assertEquals(false, PrimeNumber.isPrimeNumber(21));
+    }
 }
