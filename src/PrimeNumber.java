@@ -4,10 +4,14 @@ public class PrimeNumber {
         if (num == 2){
             return true;
         }
-        if (num % 2 == 0 || num % 3 == 0 || num % 5 == 0){
+        if (isDivisibleBy(num, 2) || isDivisibleBy(num, 3) || isDivisibleBy(num, 5)){
             return false;
-        } 
+        }
         return true;
+    }
+
+    public static boolean isDivisibleBy(int num, int divisor){
+        return num % divisor == 0;
     }
 
     public static void main(String[] args){
